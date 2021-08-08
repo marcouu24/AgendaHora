@@ -1,0 +1,21 @@
+body {
+
+	background: url("https://fondosmil.com/fondo/64240.jpg") no-repeat center top;
+
+}
+
+.card-img-top{
+    height: auto;
+    width: 390px;
+}
+.logo{
+    height: 350px;
+    width: auto;
+}
+
+/* .btnH{
+    height: 80px;
+    width: 400px;
+    font-size: 25px;
+} */
+
