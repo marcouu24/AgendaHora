@@ -9,7 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
-    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 
     <title>Agenda Tu Hora</title>
   </head>
@@ -17,15 +18,15 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-              <a class="navbar-brand" href="">
-                <img class="logo" src="" />
+              <a class="navbar-brand" href="{{route('welcome')}}">
+                <img class="logo1 ms-2" src="{{asset('img/logo1.png')}}" />
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse text-warning" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active h4 ms-3 text-warning" aria-current="page" href="{{route('welcome')}}">Home</a>
+                    <a class="nav-link active h4  text-warning" aria-current="page" href="{{route('welcome')}}">Home</a>
                     <a class="nav-link h4 ms-3 text-warning" href="{{route('barberos')}}">Barberos</a>
                     <a class="nav-link h4 ms-3 text-warning" href="{{route('agendar_hora')}}">Agendar Hora</a>    
                     <a class="nav-link h4 ms-3 text-warning" href="{{route('servicios')}}">Servicios</a>    

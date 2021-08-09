@@ -1,3 +1,4 @@
+
 @extends('layouts.master')
 
 
@@ -14,7 +15,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-center h2">Ale</h5>
                       <p class="card-text">
-                        <a class="btn-lg btn-primary d-grid" height="20px" style="background-color: #ac2bac;" href="https://www.instagram.com/leomessi/" role="button"
+                        <a class="btn-lg btn-primary d-grid" height="20px" style="background-color: #ac2bac;"  href="https://www.instagram.com/leomessi/" target="_blank" role="button"
                         ><i class="fab fa-instagram text-center"> Instagam</i
                       ></a>
                       </p>
@@ -28,7 +29,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-center h2 ">Leo</h5>
                       <p class="card-text">
-                        <a class="btn-lg btn-primary d-grid" height="20px" style="background-color: #ac2bac;" href="https://www.instagram.com/leomessi/" role="button"
+                        <a class="btn-lg btn-primary d-grid" height="20px" style="background-color: #ac2bac;" href="https://www.instagram.com/leomessi/" target="_blank" role="button"
                         ><i class="fab fa-instagram text-center"> Instagam</i
                       ></a>
                       </p>
@@ -42,7 +43,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-center h2">Carlos</h5>
                       <p class="card-text">
-                        <a class="btn-lg btn-primary d-grid" height="20px" style="background-color: #ac2bac;" href="https://www.instagram.com/leomessi/" role="button"
+                        <a class="btn-lg btn-primary d-grid" height="20px" style="background-color: #ac2bac;" href="https://www.instagram.com/leomessi/" target="_blank" role="button"
                         ><i class="fab fa-instagram text-center"> Instagam</i
                       ></a>
                       </p>
@@ -66,4 +67,5 @@
 
 
 @section('javascript')
+
 @endsection

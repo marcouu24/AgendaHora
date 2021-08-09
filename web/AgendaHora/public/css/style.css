@@ -1,6 +1,6 @@
 body {
 
-	background: url("https://fondosmil.com/fondo/64240.jpg") no-repeat center top;
+	background: url("https://fondosmil.com/fondo/64240.jpg") no-repeat center ;
 
 }
 
@@ -19,3 +19,15 @@ body {
     font-size: 25px;
 } */
 
+#map { height: 450px; }
+
+
+.logo1{
+    /*
+    Siempre que quieres que una imagen sea responsiva, defines solo una dimension de las dos
+    o defines el ancho, o defines el alto
+    Si defines el ancho, el alto es automatico, si defines el alto el ancho debe ser auto
+    */
+    height: auto;
+    width: 100px;
+}
