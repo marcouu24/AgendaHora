@@ -93,11 +93,6 @@ document.querySelector("#filtro-cbx").addEventListener("change", async ()=>{
 });
 
 document.addEventListener("DOMContentLoaded", async ()=>{
-    //Aqui voy a cargar la tabla de consolas, porque si entra aqui
-    //lo que haga en esta parte estoy seguro que se esta ejecutando
-    //cuando la pagina esta totalmente cargada
-
-   // await cargarCategorias();
 
     let horas = await getHoras();
     cargarTabla(horas);

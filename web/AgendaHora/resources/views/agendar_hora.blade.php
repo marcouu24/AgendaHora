@@ -1,8 +1,5 @@
-<link href="{{ asset('css/app.css') }}" rel="stylesheet">
-<script src="{{ asset('js/app.js') }}"></script>
 @extends('layouts.master')
-<link href="{{ asset('css/app.css') }}" rel="stylesheet">
-<script src="{{ asset('js/app.js') }}"></script>
+
 @section('contenido')
 
 <div class="row mt-5">
@@ -77,16 +74,8 @@
             </div>
             <div class="card-footer d-grid gap-1">
                 <button id="registrar-btn" class="btn btn-warning">Registrar</button>
-            </div>
-
-            
-            
-            
-        
-        
-        </div>
-
-         
+            </div>                      
+        </div>        
     </div>
 </div>
     
@@ -99,8 +88,5 @@
 @section('javascript')
 <script src="{{asset('js/servicios/horasService.js')}}"></script>
 <script src="{{asset('js/agendar_hora.js')}}"></script>
-<script src="{{ asset('js/app.js') }}"></script>
-<script src="{{asset('vendor/rutjs/dist/rut.min.js')}}"></script>
-<link href="{{ asset('css/app.css') }}" rel="stylesheet">
 <script src="{{ asset('js/app.js') }}"></script>
 @endsection

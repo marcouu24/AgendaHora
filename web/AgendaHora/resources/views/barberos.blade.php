@@ -1,7 +1,4 @@
-
 @extends('layouts.master')
-
-
 
 @section('contenido')
 
@@ -52,13 +49,7 @@
                   </div>
                 </div>
               </div>
-
-         
-    
-    </div>
-    
-        
-    
+    </div>       
 </div>
 
 @endsection

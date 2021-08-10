@@ -1,7 +1,4 @@
 @extends('layouts.master')
-
-
-
 @section('contenido')
 
 <div class="row ">
@@ -44,20 +41,11 @@
                 </div>
               </div>
             </div>
-        </div>
-          
-        
-         
-    
-    </div>
-    
-        
-    
+        </div>                   
+    </div>   
 </div>
 
 @endsection
-
-
 
 
 @section('javascript')

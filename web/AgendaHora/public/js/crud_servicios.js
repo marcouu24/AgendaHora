@@ -23,14 +23,14 @@ const iniciarEliminacion = async function(){
 
 
 const cargarTabla = (servicios)=>{
-    //1. Obtener una referencia al cuerpo de la tabla
+
     let tbody = document.querySelector("#tbody-servicios");
     tbody.innerHTML = "";
-    //2. Recorrer todas las consolas
+
     for(let i=0; i < servicios.length; ++i){
-        //3. Por cada consola generar una fila
+
         let tr = document.createElement("tr");
-        //4. Generar por cada atributo de la consola, un td
+
 
         let tdNombre = document.createElement("td");
         tdNombre.innerText = servicios[i].nombre_servicio;

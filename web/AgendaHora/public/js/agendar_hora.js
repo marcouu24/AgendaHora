@@ -41,7 +41,7 @@ document.querySelector("#registrar-btn").addEventListener("click", async ()=>{
 
        
         let res = await crearHora(hora); 
-        await Swal.fire("Libro Creado", "Libro creado exitosamente", "info");
+        await Swal.fire("Hora Creada", "Hora Agendada Exitosamente", "info");
 
         window.location.href = "";
 
