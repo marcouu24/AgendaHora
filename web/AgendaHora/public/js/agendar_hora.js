@@ -4,7 +4,6 @@ document.querySelector("#registrar-btn").addEventListener("click", async ()=>{
     let fecha = document.querySelector("#fecha-txt").value.trim();
     let horaR =document.querySelector("#hora-select").value.trim();
     let rut = document.querySelector("#rut-txt").value.trim();
-    let rut2= rut.getNiceRut()
     let nombre = document.querySelector("#nombre-txt").value.trim();
     let apellido = document.querySelector("#apellido-txt").value.trim();
     let celular = document.querySelector("#celular-txt").value.trim();
@@ -18,13 +17,7 @@ document.querySelector("#registrar-btn").addEventListener("click", async ()=>{
         errores.push("Debe ingresar un Nombre");
     }else if(rut === ""){
         errores.push("Debe ingresar un RUT");
-        //Validar si la consola existe en el sistema
-       // let consolas = await getConsolas(); //TODO: Hay que mejorarlo
-        //Nintendo SWITCH, == nintendo switch, == Nintendo Switch
-       // let consolaEncontrada = consolas.find(c=>c.nombre.toLowerCase() === nombre.toLowerCase());
-       // if(consolaEncontrada != undefined){
-       //     errores.push("La consola ya existe");
-       // }
+
     }else if(apellido === ""){
         errores.push("Debe ingresar un Apellido");
     }else if(celular === ""){
@@ -35,10 +28,7 @@ document.querySelector("#registrar-btn").addEventListener("click", async ()=>{
 
 
    
-    if(errores.length == 0){
-        
-    
-
+    if(errores.length == 0){       
         let hora = {};
         hora.dia = fecha;
         hora.hora = horaR;

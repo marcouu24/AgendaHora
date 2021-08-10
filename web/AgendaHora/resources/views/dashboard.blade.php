@@ -13,7 +13,7 @@
                     <div class="card-body">
                         <select class="form-select" id="filtro-cbx">
                             <option value="todos">Todos</option>
-                            <option value="Claudio">Claudio</option>
+                            <option value="Carlos">Carlos</option>
                             <option value="Ale">Ale</option>
                             <option value="Leo">Leo</option>
                         </select>
@@ -43,7 +43,10 @@
                 </table>
             </div>
         </div>
+    </div>
 
+    <div class="row mt-5">
+        <div style="text-align:center;padding:1em 0;"> <h2><a style="text-decoration:none;" href="https://www.zeitverschiebung.net/es/city/3868121"><span style="color:gray;">Hora actual en</span><br />Viña del Mar, Chile</a></h2> <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=es&size=large&timezone=America%2FSantiago" width="100%" height="140" frameborder="0" seamless></iframe> </div>
     </div>
     
 
